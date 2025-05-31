@@ -569,7 +569,7 @@ const Homepage = ({
             <div className="container-grid">
               <div className="swiper mySwiper">
                 <div className="swiper-wrapper">
-                  {/* <div className="swiper-slide">
+                  <div className="swiper-slide">
                     <Link href={"/owner/ajay-devgn"}>
                       <div
                         className="wcl-owner"
@@ -584,7 +584,7 @@ const Homepage = ({
                         </div>
                       </div>
                     </Link>
-                  </div> */}
+                  </div>
                   <div className="swiper-slide">
                     <Link href={"/owner/harshit-tomar"}>
                       <div

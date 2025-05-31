@@ -37,17 +37,17 @@ const About = ({ canonical_link, meta_title, meta_description, meta_keywords, pa
                         <div className="about-wcl-bollywood">
                             <div>
                                 <h2>Meet the League Owners</h2>
-                                <p>Leading the World Championship of Legends (WCL) is a visionary leadership team dedicated. Mr. Harshit Tomar, founder and owner of WCL, bring together their unmatched expertise in entertainment, business, and sports to make WCL a premier platform for cricket legends.</p>
+                                <p>Leading the World Championship of Legends (WCL) is a visionary leadership team dedicated to redefining the sport. Mr. Ajay Devgn, Bollywood icon and co-owner of WCL and Mr. Harshit Tomar, founder and owner of WCL, bring together their unmatched expertise in entertainment, business, and sports to make WCL a premier platform for cricket legends.</p>
                             </div>
                             <div className="bollywood-owners">
-                                {/* <Link href={"/owner/ajay-devgn"}>
+                                <Link href={"/owner/ajay-devgn"}>
                                     <div className="wcl-owner" style={{ backgroundImage: "url('/assets/images/owners/ajay-devgn.webp')" }}>
                                         <div>
                                             <h2>Ajay Devgn</h2>
                                             <p>Co-Owner</p>
                                         </div>
                                     </div>
-                                </Link> */}
+                                </Link>
                                 <Link href={"/owner/harshit-tomar"}>
                                     <div className="wcl-owner" style={{ backgroundImage: "url('/assets/images/owners/harshit-tomar.webp')" }}>
                                         <div>
