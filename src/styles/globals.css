@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Poppins Thin";
+  src: url("/assets/fonts/poppins-extra-thin.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Extra Light";
+  src: url("/assets/fonts/poppins-extra-light");
+}
+
+@font-face {
+  font-family: "Poppins Light";
+  src: url("/assets/fonts/poppins-light.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("/assets/fonts/poppins-regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("/assets/fonts/poppins-medium.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Semibold";
+  src: url("/assets/fonts/poppins-semibold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("/assets/fonts/poppins-bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Extra Bold";
+  src: url("/assets/fonts/poppins-extra-bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Black";
+  src: url("/assets/fonts/poppins-black.ttf");
+}
+
+@font-face {
+  font-family: "Schabo";
+  src: url("/assets/fonts/schabo.ttf");
+}
+
+@font-face {
+  font-family: "Cornero";
+  src: url("/assets/fonts/cornero.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+a {
+  text-decoration: unset;
+  display: flex;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body,
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.swiper,
+.swiper-wrapper,
+.swiper-slide {
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #2D3B7D;
+}
+
+.playerTitle {
+  all: unset;
+  color: #D3D3D3 !important;
+  font-size: 18px !important;
+}

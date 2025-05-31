@@ -1,0 +1,44 @@
+/* Player.module.css */
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 80px auto 0 auto; /* margin-top 80px and center horizontally */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.playerName {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; /* semibold */
+  text-align: center;
+}
+
+.playerTitle {
+  color: #131313;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300; /* light */
+}
+
+.playerImage {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: block;
+}
+
+.content {
+  color: #161515;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400; /* regular */
+  line-height: 1.8;
+}
