@@ -152,6 +152,24 @@ const SauthAfricaChampions = ({
           "A dynamic all-rounder, Chris Morris’ express pace and big-hitting lower down the order make him a game-changer in WCL. His death-over bowling skills add an extra edge to his team.",
       },
       {
+        player_name: "Hashim Amla",
+        player_type: "Batsman",
+        player_jersey: "1",
+        player_image:
+          "/assets/images/players/south-africa-champions/.webp",
+        player_about:
+          "A dynamic opening batsman...",
+      },
+      {
+        player_name: "Aaron Phangiso",
+        player_type: "Bowler",
+        player_jersey: "69",
+        player_image:
+          "/assets/images/players/south-africa-champions/.webp",
+        player_about:
+          "A genuine fast bowler...",
+      },
+      {
         player_name: "JJ Smuts",
         player_type: "All Rounder",
         player_jersey: "21",

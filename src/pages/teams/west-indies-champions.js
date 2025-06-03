@@ -118,6 +118,51 @@ const WestIndiesChampions = ({
     ],
     season2: [
       {
+        player_name: "CHADWICK WALTON",
+        player_type: "Batsman",
+        player_jersey: "59",
+        player_image:
+          "/assets/images/players/west-indies-champions/chadwick-walton.webp",
+        player_about:
+          "A hard-hitting wicketkeeper-batsman...",
+      },
+      {
+        player_name: "DAVE MOHAMMED",
+        player_type: "Bowler",
+        player_jersey: "777",
+        player_image:
+          "/assets/images/players/west-indies-champions/.webp",
+        player_about:
+          "A skilled fast bowler...",
+      },
+      {
+        player_name: "FIDEL EDWARDS",
+        player_type: "Bowler",
+        player_jersey: "50",
+        player_image:
+          "/assets/images/players/west-indies-champions/fidel-edwards.webp",
+        player_about:
+          "A skilled fast bowler...",
+      },
+      {
+        player_name: "PERKINS WILLIAM",
+        player_type: "Wicket Keeper",
+        player_jersey: "40",
+        player_image:
+          "/assets/images/players/west-indies-champions/.webp",
+        player_about:
+          "A reliable wicketkeeper-batsman...",
+      },
+      {
+        player_name: "SULIEMAN BENN",
+        player_type: "Bowler",
+        player_jersey: "62",
+        player_image:
+          "/assets/images/players/west-indies-champions/suleiman-benn.webp",
+        player_about:
+          "A skilled fast bowler...",
+      },
+      {
         player_name: "Dwayne Smith",
         player_type: "Batsman",
         player_jersey: "50",

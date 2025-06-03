@@ -128,6 +128,60 @@ const IndiaChampions = ({
     ],
     season2: [
       {
+        player_name: "Yuvraj Singh",
+        player_type: "All Rounder",
+        player_jersey: "12",
+        player_image:
+          "/assets/images/players/india-champions/yuvraj-singh.webp",
+        player_about:
+          "A reliable all-rounder...",
+      },
+      {
+        player_name: "SIKHAR DHAWAN",
+        player_type: "Batsman",
+        player_jersey: "42",
+        player_image:
+          "/assets/images/players/india-champions/shikhar-dhawan.webp",
+        player_about:
+          "A dynamic opening batsman...",
+      },
+      {
+        player_name: "HARBHAJAN SINGH",
+        player_type: "Bowler",
+        player_jersey: "27",
+        player_image:
+          "/assets/images/players/india-champions/harbhajan-singh.webp",
+        player_about:
+          "A skilled fast bowler...",
+      },
+      {
+        player_name: "SURESH RAINA",
+        player_type: "All Rounder",
+        player_jersey: "3",
+        player_image:
+          "/assets/images/players/india-champions/suresh-raina.webp",
+        player_about:
+          "A reliable all-rounder...",
+      },
+      {
+        player_name: "IRFAN PATHAN",
+        player_type: "All Rounder",
+        player_jersey: "56",
+        player_image:
+          "/assets/images/players/india-champions/irfan-pathan.webp",
+        player_about:
+          "A reliable all-rounder...",
+      },
+      {
+        player_name: "YUSUF PATHAN",
+        player_type: "All Rounder",
+        player_jersey: "28",
+        player_image:
+          "/assets/images/players/india-champions/yusuf-pathan.webp",
+        player_about:
+          "A reliable all-rounder...",
+      },
+      {
         player_name: "Piyush Chawla",
         player_type: "Bowler",
         player_jersey: "11",

@@ -2,7 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
   "/teams/england-champions": "pages/teams/england-champions.js",
-  "/about": "pages/about.js"
+  "/teams/australia-champions": "pages/teams/australia-champions.js",
+  "/teams/south-africa-champions": "pages/teams/south-africa-champions.js",
+  "/teams/west-indies-champions": "pages/teams/west-indies-champions.js",
+  "/teams/india-champions": "pages/teams/india-champions.js"
 }

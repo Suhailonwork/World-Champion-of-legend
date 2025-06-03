@@ -144,6 +144,46 @@ const AustraliaChampions = ({
         player_about: "A classy left-handed batsman...",
       },
       {
+        player_name: "CHRIS LYNN",
+        player_type: "Batsman",
+        player_jersey: "50",
+        player_image:
+          "/assets/images/players/australia-champions/.webp",
+        player_about: "A dynamic opening batsman...",
+      },
+      {
+        player_name: "MOISES HENDRICKS",
+        player_type: "All rounder",
+        player_jersey: "21",
+        player_image:
+          "/assets/images/players/australia-champions/.webp",
+        player_about: "A powerful all-rounder...",
+      },
+      {
+        player_name: "STEVE O'KEEFE",
+        player_type: "Bowler",
+        player_jersey: "72",
+        player_image:
+          "/assets/images/players/australia-champions/.webp",
+        player_about: "One of the fastest bowlers in cricket history...",
+      },
+      {
+        player_name: "ROB QUINEY",
+        player_type: "Wicket Keeper",
+        player_jersey: "12",
+        player_image:
+          "/assets/images/players/australia-champions/.webp",
+        player_about: "A hard-hitting wicketkeeper-batsman...",
+      },
+      {
+        player_name: "JOHN HASTING",
+        player_type: "All rounder",
+        player_jersey: "41",
+        player_image:
+          "/assets/images/players/australia-champions/.webp",
+        player_about: "A powerful all-rounder...",
+      },
+      {
         player_name: "Ben Dunk",
         player_type: "Wicket Keeper",
         player_jersey: "51",
@@ -224,7 +264,7 @@ const AustraliaChampions = ({
                   <TeamOwner
                     name="Mr. Puneet Singh"
                     image="/assets/images/team-owners/puneet-singh.webp"
-                    about="Puneet Singh, a Global entrepreneur..."
+                    about="Mr. Puneet Singh is a dynamic global entrepreneur with a visionary presence across finance, entertainment, and sports. As the owner of the Australia Champions in the World Championship of Legends (WCL), he brings unmatched passion and strategic leadership to the tournament. He is also the founder of ECL , and the co-owner of Punjab De Sher in the Celebrity Cricket League (CCL). With a deep-rooted love for the game and a sharp entrepreneurial spirit, he continues to redefine the landscape of sports and entertainment on a global scale. His commitment to WCL reflects his belief in celebrating cricketing legends and elevating the sport to new international heights."
                   />
                 </div>
               </div>
@@ -346,7 +386,7 @@ const AustraliaChampions = ({
 
         .team-owners {
           display: grid;
-          grid-template-columns: repeat(3, 1fr);
+          // grid-template-columns: repeat(3, 1fr);
           gap: 50px;
           background-color: #27336d;
           padding: 15px;
