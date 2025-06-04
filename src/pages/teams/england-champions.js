@@ -1,3 +1,4 @@
+import { CaptainCard } from "@/components/CaptainCard";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PlayerCard from "@/components/PlayerCard";
@@ -284,6 +285,18 @@ const EnglandChampions = ({
                   />
                 </div>
               </div>
+            </div>
+            <div className="my-10">
+            <CaptainCard
+              name="Eoin Morgan "
+              type=""
+              jersey=""
+              about="One of the most influential minds in modern cricket, Cricketer Eoin Morgan redefined leadership and reshaped how England played white-ball cricket. Now, he’s back—this time as the WCL England Champions Team captain for Season 2 of the World Championship of Legends, bringing with him that same bold mindset and calm presence. 
+              As the WCL rolls into its second edition, from July 18 to August 2, cricket fans across the UK will once again witness legends in action. Among the brightest names is Cricketer Eoin Morgan, who will lead the home team across iconic "
+              metric1=""
+              metric2=""
+              image="/assets/images/players/england-champions/eoin-morgan.webp"
+            />
             </div>
 
             <div className="team-squad">

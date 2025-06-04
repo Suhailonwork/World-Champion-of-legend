@@ -1,3 +1,4 @@
+import { CaptainCard } from "@/components/CaptainCard";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PlayerCard from "@/components/PlayerCard";
@@ -297,6 +298,18 @@ const WestIndiesChampions = ({
                   />
                 </div>
               </div>
+            </div>
+            <div className="my-10">
+              <CaptainCard
+                name="Chris Gayle"
+                type=""
+                jersey=""
+                about="He’s loud, he’s proud, and when he walks out to bat, stadiums roar. Cricketer Chris Gayle, the 'Universe Boss' himself, is set to light up the field once again as the WCL West Indies Champions Team captain for Season 2 of the World Championship of Legends. With his signature swagger, six-hitting ability, and magnetic charisma, Gayle’s return to the pitch has fans buzzing worldwide.
+                From July 18 to August 2, Gayle and the West Indies Champions will bring flair, power, and unmatched entertainment to grounds across Birmingham, Northampton, Leeds, and Leicester."
+                metric1=""
+                metric2=""
+                image="/assets/images/players/west-indies-champions/chris-gayle.webp"
+              />
             </div>
             <div className="team-squad">
               <h2>West Indies Champions Squad - Team Overview</h2>

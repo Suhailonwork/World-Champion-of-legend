@@ -1,3 +1,4 @@
+import { CaptainCard } from "@/components/CaptainCard";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PlayerCard from "@/components/PlayerCard";
@@ -268,6 +269,18 @@ const AustraliaChampions = ({
                   />
                 </div>
               </div>
+            </div>
+            <div className="my-10">
+            <CaptainCard
+              name="Brett Lee "
+              type=""
+              jersey=""
+              about="Fast, fierce, and forever iconic—Cricketer Brett Lee is all set to bring his thunder back to the pitch as the WCL Australia Champions Team captain for Season 2 of the World Championship of Legends. Known for his searing pace and unstoppable energy, Brett Lee is a name that defined fast bowling in the early 2000s. And now, the legend returns to lead a powerful Australian squad, bringing fans a perfect blend of nostalgia and elite cricketing action.
+              As the cricketing world gears up for the second edition of the WCL, there’s immense anticipation around the return of Cricketer Brett Lee, not just as a bowler, but as a leader—guiding the WCL Australia team into what promises to be a high-octane tournament between July 18 and August 2 in the UK."
+              metric1=""
+              metric2=""
+              image="/assets/images/players/australia-champions/brett-lee.webp"
+            />
             </div>
             <div className="team-squad">
               <h2>Australia Champions Squad - Team Overview</h2>

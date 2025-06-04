@@ -1,3 +1,4 @@
+import { CaptainCard } from "@/components/CaptainCard";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PlayerCard from "@/components/PlayerCard";
@@ -293,6 +294,18 @@ const SauthAfricaChampions = ({
                   />
                 </div>
               </div>
+            </div>
+            <div className="my-10">
+              <CaptainCard
+                name="AB De Villiers"
+                type=""
+                jersey=""
+                about="The cricketing world holds its breath as one of the most iconic names in modern cricket, Cricketer AB de Villiers, prepares to lead once again—this time, at the helm of the WCL South Africa team in Season 2 of the World Championship of Legends. After the debut season, where global legends reignited their spark, fans are in for another historic ride, and AB de Villiers is the man to watch.
+                For fans of cricket, Cricketer AB de Villiers presence at the crease has always been a blend of magic, power, and innovation. Widely recognized as Mr. 360 for his ability to hit shots all around the ground, AB is more than just a batsman—he is a spectacle. And now, he returns not just as a player, but as the WCL South Africa Champions Team captain, ready to guide his squad into a thrilling second season."
+                metric1=""
+                metric2=""
+                image="/assets/images/players/south-africa-champions/ab-de-villiers.webp"
+              />
             </div>
             <div className="team-squad">
               <h2>South Africa Champions Squad - Team Overview</h2>

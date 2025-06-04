@@ -1,3 +1,4 @@
+import { CaptainCard } from "@/components/CaptainCard";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PlayerCard from "@/components/PlayerCard";
@@ -285,6 +286,18 @@ const IndiaChampions = ({
                   />
                 </div>
               </div>
+            </div>
+            <div className="my-10">
+              <CaptainCard
+                    name="Yuvraj Singh"
+                    type=""
+                    jersey=""
+                    about="Yuvraj Singh, a name synonymous with explosive batting and unwavering resilience, continues to captivate cricket enthusiasts worldwide.
+                    As the captain of the World Championship of Legends (WCL) Indian Champions Cricket Team, his leadership in this prestigious tournament underscores his enduring passion for the game and his commitment to excellence."
+                    metric1=""
+                    metric2=""
+                    image="/assets/images/players/india-champions/yuvraj-singh.webp"
+                  />
             </div>
             <div className="team-squad">
               <h2>India Champions Squad - Team Overview</h2>

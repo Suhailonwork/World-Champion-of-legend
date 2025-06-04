@@ -1,5 +1,6 @@
 import ArticleCard from "@/components/ArticleCard";
 import Button from "@/components/Button";
+import CountDown from "@/components/CountDown";
 import Footer from "@/components/Footer";
 import GalleryMarquee from "@/components/GalleryMarquee";
 import GalleryStrip from "@/components/GalleryStrip";
@@ -495,6 +496,7 @@ const Homepage = ({
               </a>
             </Link>
           </div>
+          <CountDown />
           <div className="news news-container">
             <div className="container-header">
               <h1>WCL Latest News</h1>
