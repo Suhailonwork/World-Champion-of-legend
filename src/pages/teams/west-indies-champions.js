@@ -132,7 +132,7 @@ const WestIndiesChampions = ({
         player_type: "Bowler",
         player_jersey: "777",
         player_image:
-          "/assets/images/players/west-indies-champions/.webp",
+          "/assets/images/players/west-indies-champions/dave.png",
         player_about:
           "A skilled fast bowler...",
       },
@@ -150,7 +150,7 @@ const WestIndiesChampions = ({
         player_type: "Wicket Keeper",
         player_jersey: "40",
         player_image:
-          "/assets/images/players/west-indies-champions/.webp",
+          "/assets/images/players/west-indies-champions/PERKINS_WILLIAM.png",
         player_about:
           "A reliable wicketkeeper-batsman...",
       },

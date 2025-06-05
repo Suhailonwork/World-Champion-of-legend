@@ -173,7 +173,7 @@ const AustraliaChampions = ({
         player_type: "Wicket Keeper",
         player_jersey: "12",
         player_image:
-          "/assets/images/players/australia-champions/ROB QUINEY.png",
+          "/assets/images/players/australia-champions/ROB_QUINEY.png",
         player_about: "A hard-hitting wicketkeeper-batsman...",
       },
       {
@@ -181,7 +181,7 @@ const AustraliaChampions = ({
         player_type: "All rounder",
         player_jersey: "41",
         player_image:
-          "/assets/images/players/australia-champions/.webp",
+          "/assets/images/players/australia-champions/jhon_hasting.png",
         player_about: "A powerful all-rounder...",
       },
       {

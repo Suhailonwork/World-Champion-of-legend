@@ -29,6 +29,11 @@ self.__BUILD_MANIFEST = {
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/teams/south-africa-champions.js"
+    ],
+    "/teams/west-indies-champions": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/teams/west-indies-champions.js"
     ]
   },
   "ampFirstPages": []

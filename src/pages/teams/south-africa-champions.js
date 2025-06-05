@@ -166,7 +166,7 @@ const SauthAfricaChampions = ({
         player_type: "Bowler",
         player_jersey: "69",
         player_image:
-          "/assets/images/players/south-africa-champions/Phangiso.png",
+          "/assets/images/players/south-africa-champions/Phangiso1.png",
         player_about:
           "A genuine fast bowler...",
       },
