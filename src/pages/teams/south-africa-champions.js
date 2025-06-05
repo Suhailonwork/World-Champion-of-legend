@@ -157,7 +157,7 @@ const SauthAfricaChampions = ({
         player_type: "Batsman",
         player_jersey: "1",
         player_image:
-          "/assets/images/players/south-africa-champions/.webp",
+          "/assets/images/players/south-africa-champions/amla.png",
         player_about:
           "A dynamic opening batsman...",
       },
@@ -166,7 +166,7 @@ const SauthAfricaChampions = ({
         player_type: "Bowler",
         player_jersey: "69",
         player_image:
-          "/assets/images/players/south-africa-champions/.webp",
+          "/assets/images/players/south-africa-champions/Phangiso.png",
         player_about:
           "A genuine fast bowler...",
       },

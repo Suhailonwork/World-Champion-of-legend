@@ -149,7 +149,7 @@ const AustraliaChampions = ({
         player_type: "Batsman",
         player_jersey: "50",
         player_image:
-          "/assets/images/players/australia-champions/.webp",
+          "/assets/images/players/australia-champions/ChrisLynn.png",
         player_about: "A dynamic opening batsman...",
       },
       {
@@ -157,7 +157,7 @@ const AustraliaChampions = ({
         player_type: "All rounder",
         player_jersey: "21",
         player_image:
-          "/assets/images/players/australia-champions/.webp",
+          "/assets/images/players/australia-champions/Moesis.png",
         player_about: "A powerful all-rounder...",
       },
       {
@@ -173,7 +173,7 @@ const AustraliaChampions = ({
         player_type: "Wicket Keeper",
         player_jersey: "12",
         player_image:
-          "/assets/images/players/australia-champions/.webp",
+          "/assets/images/players/australia-champions/ROB QUINEY.png",
         player_about: "A hard-hitting wicketkeeper-batsman...",
       },
       {

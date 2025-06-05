@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/teams/south-africa-champions": "pages/teams/south-africa-champions.js",
-  "/teams/india-champions": "pages/teams/india-champions.js",
-  "/": "pages/index.js"
+  "/teams/australia-champions": "pages/teams/australia-champions.js",
+  "/": "pages/index.js",
+  "/teams/south-africa-champions": "pages/teams/south-africa-champions.js"
 }
