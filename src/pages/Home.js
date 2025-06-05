@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-export const Home = () => {
+export default function Home() {
   return (
-    <div className="bg-black text-white text-2xl p-10 text-center">
-      ✅ Tailwind CSS is working!
+    <div>
+      <h1>Welcome to the Homepage</h1>
     </div>
   );
-};
+}
