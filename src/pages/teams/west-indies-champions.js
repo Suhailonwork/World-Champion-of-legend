@@ -1,3 +1,4 @@
+import { CaptainCard } from "@/components/CaptainCard";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PlayerCard from "@/components/PlayerCard";
@@ -117,6 +118,51 @@ const WestIndiesChampions = ({
       },
     ],
     season2: [
+      {
+        player_name: "CHADWICK WALTON",
+        player_type: "Batsman",
+        player_jersey: "59",
+        player_image:
+          "/assets/images/players/west-indies-champions/chadwick-walton.webp",
+        player_about:
+          "A hard-hitting wicketkeeper-batsman...",
+      },
+      {
+        player_name: "DAVE MOHAMMED",
+        player_type: "Bowler",
+        player_jersey: "777",
+        player_image:
+          "/assets/images/players/west-indies-champions/dave.png",
+        player_about:
+          "A skilled fast bowler...",
+      },
+      {
+        player_name: "FIDEL EDWARDS",
+        player_type: "Bowler",
+        player_jersey: "50",
+        player_image:
+          "/assets/images/players/west-indies-champions/fidel-edwards.webp",
+        player_about:
+          "A skilled fast bowler...",
+      },
+      {
+        player_name: "PERKINS WILLIAM",
+        player_type: "Wicket Keeper",
+        player_jersey: "40",
+        player_image:
+          "/assets/images/players/west-indies-champions/PERKINS_WILLIAM.png",
+        player_about:
+          "A reliable wicketkeeper-batsman...",
+      },
+      {
+        player_name: "SULIEMAN BENN",
+        player_type: "Bowler",
+        player_jersey: "62",
+        player_image:
+          "/assets/images/players/west-indies-champions/suleiman-benn.webp",
+        player_about:
+          "A skilled fast bowler...",
+      },
       {
         player_name: "Dwayne Smith",
         player_type: "Batsman",
@@ -252,6 +298,18 @@ const WestIndiesChampions = ({
                   />
                 </div>
               </div>
+            </div>
+            <div className="my-10">
+              <CaptainCard
+                name="Chris Gayle"
+                type=""
+                jersey=""
+                about="He’s loud, he’s proud, and when he walks out to bat, stadiums roar. Cricketer Chris Gayle, the 'Universe Boss' himself, is set to light up the field once again as the WCL West Indies Champions Team captain for Season 2 of the World Championship of Legends. With his signature swagger, six-hitting ability, and magnetic charisma, Gayle’s return to the pitch has fans buzzing worldwide.
+                From July 18 to August 2, Gayle and the West Indies Champions will bring flair, power, and unmatched entertainment to grounds across Birmingham, Northampton, Leeds, and Leicester."
+                metric1=""
+                metric2=""
+                image="/assets/images/players/west-indies-champions/chris-gayle.webp"
+              />
             </div>
             <div className="team-squad">
               <h2>West Indies Champions Squad - Team Overview</h2>

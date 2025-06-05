@@ -1,3 +1,4 @@
+import { CaptainCard } from "@/components/CaptainCard";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PlayerCard from "@/components/PlayerCard";
@@ -128,6 +129,30 @@ const EnglandChampions = ({
     ],
     season2: [
       {
+        player_name: "RYAN SIDEBOTTOM",
+        player_type: "Bowler",
+        player_jersey: "18",
+        player_image:
+          "/assets/images/players/england-champions/ryan-sidebottom.webp",
+        player_about: "A genuine fast bowler...",
+      },
+      {
+        player_name: "STUART MEAKER",
+        player_type: "Bowler",
+        player_jersey: "60",
+        player_image:
+          "/assets/images/players/england-champions/stuart-meaker.webp",
+        player_about: "A genuine fast bowler...",
+      },
+      {
+        player_name: "USMAN AFZAAL",
+        player_type: "All rounder",
+        player_jersey: "606",
+        player_image:
+          "/assets/images/players/england-champions/usman-afzaal.webp",
+        player_about: "A dynamic all-rounder...",
+      },
+      {
         player_name: "Sir Alastair Cook",
         player_type: "Batsman",
         player_jersey: "26",
@@ -242,23 +267,36 @@ const EnglandChampions = ({
               </div>
             </div>
 
-            <div className="team-owners-container">
-              <div className="team-owners">
+            <div className="team-owners-container ">
+              <div className="grid grid-cols-2 shadow-lg p-10 gap-10 text-justify rounded bg-[#27336d]">
                 <div className="team-owner">
                   <TeamOwner
                     name="Mr. Praveen Sharma"
                     image="/assets/images/team-owners/praveen-sharma.webp"
-                    about="Praveen Sharma is Meteora's Founder..."
+                    about="Mr. Parveen Sharma is a visionary entrepreneur and the Founder & CEO of Meteora Developers, a company celebrated for its innovation and excellence in the UAE’s real estate landscape. With a legacy of remarkable achievements in the business world, he brings the same ambition, precision, and strategic mindset to the realm of sports. As the owner of the England Champions in the prestigious World Championship of Legends (WCL), Mr. Parveen has built a formidable team that mirrors his dedication to quality, performance, and lasting legacy. His deep-rooted passion for the game and commitment to honoring cricketing legends have made him a key driving force behind WCL’s global presence — positioning the England Champions as strong title contenders in this iconic tournament.
+"
                   />
                 </div>
                 <div className="team-owner">
                   <TeamOwner
                     name="Mr. Omar Al Omour"
                     image="/assets/images/team-owners/omar-al-omar.webp"
-                    about="Omar Al Omour has over 20 years..."
+                    about="Mr. Omar Al Omour is a forward-thinking entrepreneur and influential figure with a deep passion for sports and global entertainment. As one of the proud owners of the England Champions in the World Championship of Legends (WCL) - He plays a key role in shaping the team’s vision and success. With a sharp business acumen and a strong commitment to excellence, he brings fresh energy and strategic insight to the tournament. His involvement in WCL reflects not only his love for the game but also his dedication to elevating the platform of cricket legends on an international stage."
                   />
                 </div>
               </div>
+            </div>
+            <div className="my-10">
+            <CaptainCard
+              name="Eoin Morgan "
+              type=""
+              jersey=""
+              about="One of the most influential minds in modern cricket, Cricketer Eoin Morgan redefined leadership and reshaped how England played white-ball cricket. Now, he’s back—this time as the WCL England Champions Team captain for Season 2 of the World Championship of Legends, bringing with him that same bold mindset and calm presence. 
+              As the WCL rolls into its second edition, from July 18 to August 2, cricket fans across the UK will once again witness legends in action. Among the brightest names is Cricketer Eoin Morgan, who will lead the home team across iconic "
+              metric1=""
+              metric2=""
+              image="/assets/images/players/england-champions/eoin-morgan.webp"
+            />
             </div>
 
             <div className="team-squad">
