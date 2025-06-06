@@ -7,17 +7,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        {/* Google Fonts Poppins */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
-          rel="stylesheet"
-        />
-
-        {/* Google site verification */}
-        <meta
-          name="google-site-verification"
-          content="s92k2tY9Ih--DMgj_sMGNEUHgSHacLZPE5Gr984V_h8"
-        />
+        
       </Head>
 
       {/* Netcore Smartech Script */}

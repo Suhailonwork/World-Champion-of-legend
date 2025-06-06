@@ -1,6 +1,5 @@
 import ArticleCard from "@/components/ArticleCard";
 import Button from "@/components/Button";
-import CountDown from "@/components/CountDown";
 import Footer from "@/components/Footer";
 import GalleryMarquee from "@/components/GalleryMarquee";
 import GalleryStrip from "@/components/GalleryStrip";
@@ -13,6 +12,9 @@ import Link from "next/link";
 import React, { useEffect } from "react";
 import Swiper from "swiper";
 import "swiper/css";
+import dynamic from 'next/dynamic';
+
+const CountDown = dynamic(() => import('@/components/CountDown'), { ssr: false });
 
 const Homepage = ({
   canonical_link,
