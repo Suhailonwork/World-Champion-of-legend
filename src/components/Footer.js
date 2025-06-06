@@ -220,10 +220,6 @@ const Footer = ({ pagecontent }) => {
             </div>
           </div>
           <div className="footer-additional">
-            <p>
-              © Copyright {currentYear} WCL. All rights reserved. Unauthorized
-              use or reproduction of any content is prohibited.
-            </p>
             <ul>
               <li>
                 <Link href="/privacy" legacyBehavior>
@@ -242,6 +238,12 @@ const Footer = ({ pagecontent }) => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="text-white p-5">
+          <p className="text-xs md:text-sm text-center">
+              © Copyright {currentYear} WCL. All rights reserved. Unauthorized
+              use or reproduction of any content is prohibited.
+            </p>
         </div>
       </footer>
 
