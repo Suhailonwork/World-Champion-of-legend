@@ -22,14 +22,14 @@ export default function CountDown() {
     return () => clearInterval(timer);
   }, []);
 
-  const boxStyle = "flex flex-col items-center justify-center bg-[#27336d] text-white rounded-lg w-24 h-24 md:w-40 md:h-40 shadow-lg";
+  const boxStyle = "flex flex-col items-center justify-center bg-[#27336d] text-white rounded-lg w-20 h-20 md:w-40 md:h-40 md:shadow-lg";
   const labelStyle = "text-xs md:text-sm opacity-80 tracking-wide";
-  const numberStyle = "text-2xl md:text-5xl font-bold";
+  const numberStyle = "text-lg md:text-5xl font-bold";
 
   return (
-    <div className="flex flex-col items-center justify-center h-full py-20 px-4 text-center">
-      <h1 className="text-white text-3xl md:text-5xl font-semibold mb-10">COMING SOON</h1>
-      <div className="flex gap-4">
+    <div className="flex flex-col items-center justify-center h-full py-10 md:py-20 px-4 text-center">
+      <h1 className="text-white text-xl md:text-5xl font-semibold mb-10">COMING SOON</h1>
+      <div className="flex md:gap-4 gap-1">
         <div className={boxStyle}>
           <div className={numberStyle}>{String(timeLeft.days).padStart(2, '0')}</div>
           <div className={labelStyle}>DAYS</div>

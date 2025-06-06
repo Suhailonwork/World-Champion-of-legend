@@ -268,7 +268,7 @@ const EnglandChampions = ({
             </div>
 
             <div className="team-owners-container ">
-              <div className="grid grid-cols-2 shadow-lg p-10 gap-10 text-justify rounded bg-[#27336d]">
+              <div className="grid md:grid-cols-2 shadow-lg p-5 md:p-10 gap-10 text-justify rounded bg-[#27336d]">
                 <div className="team-owner">
                   <TeamOwner
                     name="Mr. Praveen Sharma"
