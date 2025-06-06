@@ -1,1 +1,8 @@
-{}
+{
+  "pages/index.js -> @/components/CountDown": {
+    "id": "pages/index.js -> @/components/CountDown",
+    "files": [
+      "static/chunks/src_components_CountDown_js.js"
+    ]
+  }
+}

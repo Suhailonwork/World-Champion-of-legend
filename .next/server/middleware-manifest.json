@@ -1,30 +1,6 @@
 {
   "version": 3,
   "middleware": {},
-  "functions": {
-    "/api/sitemap": {
-      "files": [
-        "server/edge-runtime-webpack.js",
-        "server/pages/api/sitemap.js"
-      ],
-      "name": "pages/api/sitemap",
-      "page": "/api/sitemap",
-      "matchers": [
-        {
-          "regexp": "^/api/sitemap$",
-          "originalSource": "/api/sitemap"
-        }
-      ],
-      "wasm": [],
-      "assets": [],
-      "env": {
-        "__NEXT_BUILD_ID": "V2TtPLmnUkJWsPRNzC6iq",
-        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "qcrAjT2q6baZu0/b3qA26ksBJKBetUY0JWdb+TTkLJw=",
-        "__NEXT_PREVIEW_MODE_ID": "94cd2a1e02e11685fb15050661a8a953",
-        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "c02bbf92bde3f00482f68f743d63051a928d9b3f0da02e1841c775e1eaa45f40",
-        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "f6235810c64f3b47a0f42e6c2aa83afa701d844cf8009de468ce6a8500446eb0"
-      }
-    }
-  },
+  "functions": {},
   "sortedMiddleware": []
 }
