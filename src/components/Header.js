@@ -60,7 +60,9 @@ const Header = () => {
                                     <li><Link href="/videos" legacyBehavior><a className={router.pathname === "/videos" ? "active" : ""}>Videos</a></Link></li>
                                     <li><Link href="/gallery" legacyBehavior><a className={router.pathname === "/gallery" ? "active" : ""}>Gallery</a></Link></li>
                                     <li><Link href="/teams" legacyBehavior><a className={router.pathname === "/teams" ? "active" : router.route.includes("/teams") ? "active" : ""}>Teams</a></Link></li>
+                                    <li><Link href="/Venues" legacyBehavior><a className={router.pathname === "/Venues" ? "active" : ""}>Venues</a></Link></li>
                                     <li onClick={() => { setMobileMenu(false) }}><Link href="/#standings" legacyBehavior><a>Standings</a></Link></li>
+                                    <li><Link href="https://youtube.com/@wclcricket?si=sleF4WtjnMLN8UAk" legacyBehavior><a className={router.pathname === "/Youtube" ? "active" : ""}>Youtube</a></Link></li>
                                     <li><Link href="/tickets" legacyBehavior><a className={router.pathname === "/tickets" ? "active" : ""}>Tickets</a></Link></li>
                                     <li><Link href="/about" legacyBehavior><a className={router.pathname === "/about" ? "active" : ""}>About</a></Link></li>
                                     <li><Link href="/contact" legacyBehavior><a className={router.pathname === "/contact" ? "active" : ""}>Contact</a></Link></li>
@@ -184,41 +186,50 @@ const Header = () => {
                 .hamburger {
                     display: none;
                 }
-                
-                @media screen and (max-width: 1023px) {
-                .hamburger {
-                    display: flex;
-                    font-family: "Poppins Regular";
-                    font-size: 18px;
-                    text-transform: uppercase;
-                    color: #ABB1CB;
-                }
-
-                .mobile-menu {
-                    display: none;
-                }
 
                 @media screen and (max-width: 1023px) {
-                .mobile-menu {
-                    width: 100%;
-                    height: calc(100% - 130px);
-                    padding: 20px;
-                    background-color: #2D3B7D;
-                    display: flex;
-                    position: fixed;
-                    top: 130px;
-                    left: 0;
-                }
+                    .hamburger {
+                        display: flex;
+                        font-family: "Poppins Regular";
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        color: #ABB1CB;
+                        cursor: pointer;
+                    }
 
-                .mobile-menu ul {
-                    display: flex;
-                    flex-direction: column;
-                }
+                    .mobile-menu {
+                        width: 100%;
+                        height: calc(100vh - 130px);
+                        padding: 20px;
+                        background-color: #2D3B7D;
+                        display: flex;
+                        position: fixed;
+                        top: 130px;
+                        left: 0;
+                        overflow-y: auto;
+                        z-index: 1000;
+                    }
 
-                .mobile-menu ul li {
-                    width: max-content;
-                    font-size: 20px;
-                }
+                    .mobile-menu ul {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                    }
+
+                    .mobile-menu ul li {
+                        font-size: 20px;
+                        color: #ABB1CB;
+                    }
+
+                    .mobile-menu ul li a {
+                        color: #ABB1CB;
+                        text-decoration: none;
+                    }
+
+                    .mobile-menu ul li a:hover,
+                    .mobile-menu ul li a.active {
+                        color: #fff;
+                    }
                 }
             `}</style>
         </>

@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/teams/australia-champions": "pages/teams/australia-champions.js",
+  "/": "pages/index.js",
+  "/teams/pakistan-champions": "pages/teams/pakistan-champions.js"
 }
