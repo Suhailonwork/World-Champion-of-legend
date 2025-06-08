@@ -149,7 +149,7 @@ const IndiaChampions = ({
       {
         player_name: "HARBHAJAN SINGH",
         player_type: "Bowler",
-        player_jersey: "27",
+        player_jersey: "3",
         player_image:
           "/assets/images/players/india-champions/harbhajan-singh.webp",
         player_about:
@@ -158,7 +158,7 @@ const IndiaChampions = ({
       {
         player_name: "SURESH RAINA",
         player_type: "All Rounder",
-        player_jersey: "3",
+        player_jersey: "48",
         player_image:
           "/assets/images/players/india-champions/suresh-raina.webp",
         player_about:
@@ -183,6 +183,24 @@ const IndiaChampions = ({
           "A reliable all-rounder...",
       },
       {
+        player_name: "Robin Uthappa",
+        player_type: "Batsman",
+        player_jersey: "77",
+        player_image:
+          "/assets/images/players/india-champions/robin-uthappa.webp",
+        player_about:
+          "A stylish and aggressive batsman, Robin Uthappa’s ability to play big knocks at the top of the order makes him a key player in WCL. His versatility and experience make him a dependable match-winner.",
+      },
+      {
+        player_name: "Ambati Rayadu",
+        player_type: "Batsman",
+        player_jersey: "9",
+        player_image:
+          "/assets/images/players/india-champions/ambati-rayadu.webp",
+        player_about:
+          "A seasoned batsman...",
+      },
+      {
         player_name: "Piyush Chawla",
         player_type: "Bowler",
         player_jersey: "11",
@@ -192,22 +210,31 @@ const IndiaChampions = ({
           "A seasoned leg-spinner with a knack for breaking partnerships, Piyush Chawla’s presence in WCL adds depth to the bowling attack. His variations make him a tough challenge for any batsman.",
       },
       {
-        player_name: "Siddarth Kaul",
-        player_type: "Bowler",
-        player_jersey: "9",
+        player_name: "Stuart Binny",
+        player_type: "All Rounder",
+        player_jersey: "84",
         player_image:
-          "/assets/images/players/india-champions/siddarth-kaul.webp",
+          "/assets/images/players/india-champions/",
         player_about:
-          "A skilled fast bowler known for his accuracy and lethal yorkers, Siddarth Kaul’s ability to bowl in the death overs makes him an asset in WCL. His experience in T20 leagues gives him an edge in crucial moments.",
+          "A reliable all-rounder, Stuart Binny’s medium-pace bowling and ability to score crucial runs make him a key player in WCL. His ability to contribute in all departments adds balance to any team.",
       },
       {
-        player_name: "Robin Uthappa",
-        player_type: "Batsman",
-        player_jersey: "37",
+        player_name: "VARUN AARON",
+        player_type: "Bowler",
+        player_jersey: "77",
         player_image:
-          "/assets/images/players/india-champions/robin-uthappa.webp",
+          "/assets/images/players/india-champions/",
         player_about:
-          "A stylish and aggressive batsman, Robin Uthappa’s ability to play big knocks at the top of the order makes him a key player in WCL. His versatility and experience make him a dependable match-winner.",
+          "A reliable Bowler...",
+      },
+      {
+        player_name: "VINAY KUMAR",
+        player_type: "Bowler",
+        player_jersey: "23",
+        player_image:
+          "/assets/images/players/india-champions/stuart-binny.webp",
+        player_about:
+          "A reliable Bowler...",
       },
       {
         player_name: "Abhimanyu Mithun",
@@ -219,18 +246,18 @@ const IndiaChampions = ({
           "A determined fast bowler, Abhimanyu Mithun’s ability to generate pace and movement makes him a valuable asset in WCL. His aggressive bowling style helps build pressure on opposition batsmen.",
       },
       {
-        player_name: "Stuart Binny",
-        player_type: "All Rounder",
-        player_jersey: "84",
+        player_name: "Siddarth Kaul",
+        player_type: "Bowler",
+        player_jersey: "75",
         player_image:
-          "/assets/images/players/india-champions/stuart-binny.webp",
+          "/assets/images/players/india-champions/siddarth-kaul.webp",
         player_about:
-          "A reliable all-rounder, Stuart Binny’s medium-pace bowling and ability to score crucial runs make him a key player in WCL. His ability to contribute in all departments adds balance to any team.",
+          "A skilled fast bowler known for his accuracy and lethal yorkers, Siddarth Kaul’s ability to bowl in the death overs makes him an asset in WCL. His experience in T20 leagues gives him an edge in crucial moments.",
       },
       {
         player_name: "Gurkeerat Mann",
         player_type: "All Rounder",
-        player_jersey: "77",
+        player_jersey: "8",
         player_image:
           "/assets/images/players/india-champions/gurkeerat-maan.webp",
         player_about:

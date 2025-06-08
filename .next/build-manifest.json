@@ -28,15 +28,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/gallery": [
+    "/news": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/gallery.js"
-    ],
-    "/teams/pakistan-champions": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/teams/pakistan-champions.js"
+      "static/chunks/pages/news.js"
     ]
   },
   "ampFirstPages": []

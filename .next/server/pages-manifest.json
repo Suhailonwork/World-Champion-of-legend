@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/videos": "pages/videos.js",
   "/": "pages/index.js",
-  "/gallery": "pages/gallery.js",
-  "/teams/pakistan-champions": "pages/teams/pakistan-champions.js",
-  "/about": "pages/about.js"
+  "/news": "pages/news.js"
 }

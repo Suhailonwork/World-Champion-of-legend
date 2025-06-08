@@ -120,102 +120,74 @@ function PakistanChampions({
     ],
     season2: [
       {
-        player_name: "shoaib-malik",
+        player_name: "shahid afridi",
+        player_type: "all rounder",
+        player_jersey: "10 ",
+        player_image:
+          "/assets/images/players/pakistan-champions/shahid-afridi.png",
+      },
+      {
+        player_name: "shoaib malik",
         player_type: "all rounder",
         player_jersey: "18 ",
         player_image:
           "/assets/images/players/pakistan-champions/shoaib-malik.png",
       },
       {
-        player_name: "sharjeel-khan",
-        player_type: "batter ",
+        player_name: "SARFARAZ AHMED",
+        player_type: "Wicket Keeper",
+        player_jersey: "54",
+        player_image:
+          "/assets/images/players/pakistan-champions/",
+      },
+      {
+        player_name: "sharjeel khan",
+        player_type: "batsman",
         player_jersey: "98",
         player_image:
           "/assets/images/players/pakistan-champions/sharjeel-khan.png",
       },
       {
-        player_name: "sohaib-maqsood",
-        player_type: "batter ",
-        player_jersey: " 92 ",
-        player_image:
-          "/assets/images/players/pakistan-champions/sohaib-maqsood.png",
-      },
-      {
-        player_name: "sohail-khan",
-        player_type: "",
-        player_jersey: "",
-        player_image:
-          "/assets/images/players/pakistan-champions/sohail-khan.png",
-      },
-      {
-        player_name: "sohail-tanvir",
-        player_type: "  bowler",
-        player_jersey: "33 ",
-        player_image:
-          "/assets/images/players/pakistan-champions/sohail-tanvir.png",
-      },
-      // {
-      //   "player_name": "aamer-yamin",
-      //   "player_type": "Batsman",
-      //   "player_jersey": "33",
-      //   "player_image": "/assets/images/players/pakistan-champions/taufeeq-umar.png",
-
-      // },
-      {
-        player_name: "wahab-riaz",
-        player_type: " bowler",
+        player_name: "wahab riaz",
+        player_type: "bowler",
         player_jersey: "47",
         player_image:
           "/assets/images/players/pakistan-champions/wahab-riaz.png",
       },
       {
-        player_name: "younis-khan",
-        player_type: "",
-        player_jersey: "",
+        player_name: "ASIF ALI",
+        player_type: "Batsman",
+        player_jersey: "45",
         player_image:
-          "/assets/images/players/pakistan-champions/younis-khan.png",
+          "/assets/images/players/pakistan-champions/",
       },
       {
-        player_name: "aamer-yamin",
-        player_type: " all rounder ",
+        player_name: "Kamran Akmal",
+        player_type: "WICKET KEEPER",
+        player_jersey: "23",
+        player_image:
+          "/assets/images/players/pakistan-champions/kamran-akmal.png",
+      },
+      {
+        player_name: "amir yamin",
+        player_type: "Bowler",
         player_jersey: "34",
         player_image:
           "/assets/images/players/pakistan-champions/aamer-yamin.png",
       },
       {
-        player_name: "aamer-yamin",
-        player_type: "",
-        player_jersey: "",
+        player_name: "sohail-khan",
+        player_type: "bowler",
+        player_jersey: "14",
         player_image:
-          "/assets/images/players/pakistan-champions/abdul-razzaq.png",
+          "/assets/images/players/pakistan-champions/sohail-khan.png",
       },
       {
-        player_name: "aamer-yamin",
-        player_type: "",
-        player_jersey: "",
+        player_name: "Sohail Tanvir",
+        player_type: "bowler",
+        player_jersey: "33",
         player_image:
-          "/assets/images/players/pakistan-champions/kamran-akmal.png",
-      },
-      {
-        player_name: "misbah-ul-haq",
-        player_type: "",
-        player_jersey: "",
-        player_image:
-          "/assets/images/players/pakistan-champions/misbah-ul-haq.png",
-      },
-      {
-        player_name: "saeed-ajmal",
-        player_type: "",
-        player_jersey: "",
-        player_image:
-          "/assets/images/players/pakistan-champions/saeed-ajmal.png",
-      },
-      {
-        player_name: "shahid-afridi",
-        player_type: " all rounder ",
-        player_jersey: "10 ",
-        player_image:
-          "/assets/images/players/pakistan-champions/shahid-afridi.png",
+          "/assets/images/players/pakistan-champions/sohail-tanvir.png",
       },
     ],
   };

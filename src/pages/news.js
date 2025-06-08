@@ -171,7 +171,22 @@ const News = ({ canonical_link, meta_title, meta_description, meta_keywords, pag
             "news_title": "Alastair Cook to feature in World Championship of Legends 2025",
             "news_image": "https://www.crictracker.com/_next/image/?url=https%3A%2F%2Fmedia.crictracker.com%2Fmedia%2Fattachments%2F1708167520691_Alaistor-Cook.jpeg&w=1200&q=75",
             "news_url": "https://www.crictracker.com/cricket-news/alastair-cook-to-feature-in-world-championship-of-legends-2025-3378/"
-        }
+        },
+        {
+            "news_title": "Dwayne Bravo, Kieron Pollard return to professional cricket with World Championship of Legends",
+            "news_image": "https://media.crictracker.com/web/large/media/attachments/1743750474063_Dwayne--Bravo-and-Kieron-Pollard.webp",
+            "news_url": "https://www.crictracker.com/cricket-press-release/dwayne-bravo-kieron-pollard-return-to-professional-cricket-with-world-championship-of-legends/"
+        },
+        {
+            "news_title": "Dwayne Bravo, Kieron Pollard To Don West Indies Colours Again In WCL Season 2",
+            "news_image": "https://feeds.abplive.com/onecms/images/uploaded-images/2025/04/04/5008dfbd6ac043e883667a4682d270cc1743756563516936_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "news_url": "https://news.abplive.com/sports/cricket/dwayne-bravo-kieron-pollard-to-reunite-in-west-indies-colours-in-wcl-world-championship-of-legends-season-2-1762860"
+        },
+        {
+            "news_title": "Dwayne Bravo, Kieron Pollard join West Indies Champions in upcoming WCL",
+            "news_image": "https://www.hindustantimes.com/ht-img/img/2025/04/04/550x309/bravo-pollard-getty_1620877259655_1743758039803.jpg",
+            "news_url": "https://www.hindustantimes.com/cricket/dwayne-bravo-kieron-pollard-join-west-indies-champions-in-upcoming-wcl-101743757997378.html"
+        },
     ];
 
     return (
@@ -200,7 +215,7 @@ const News = ({ canonical_link, meta_title, meta_description, meta_keywords, pag
                             {
                                 news.reverse().map((article, index) => {
                                     return (
-                                        <ArticleCard title={article.news_title} image={article.news_image} url={article.news_url} type="Article " key={index}></ArticleCard>
+                                        <ArticleCard title={article.news_title} image={article.news_image} url={article.news_url} type="Article" key={index}></ArticleCard>
                                     )
                                 })
                             }
