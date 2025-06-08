@@ -1,6 +1,5 @@
 import ArticleCard from "@/components/ArticleCard";
 import Button from "@/components/Button";
-import CountDown from "@/components/CountDown";
 import Footer from "@/components/Footer";
 import GalleryMarquee from "@/components/GalleryMarquee";
 import GalleryStrip from "@/components/GalleryStrip";
@@ -13,6 +12,9 @@ import Link from "next/link";
 import React, { useEffect } from "react";
 import Swiper from "swiper";
 import "swiper/css";
+import dynamic from 'next/dynamic';
+
+const CountDown = dynamic(() => import('@/components/CountDown'), { ssr: false });
 
 const Homepage = ({
   canonical_link,
@@ -870,16 +872,13 @@ const Homepage = ({
   );
 };
 
-export async function getServerSideProps({ req }) {
+export async function getStaticProps() {
   return {
     props: {
-      canonical_link: `https://${req.headers.host}${req.url}`,
-      meta_title:
-        "World Championship of Legends Cricket 2025: Schedule, Teams, and Updates - WCL T20",
-      meta_description:
-        "Discover everything about the World Championship of Legends Cricket 2025! Get the latest schedule, team lineups, and updates for this thrilling T20 tournament featuring cricket legends like Yuvraj Singh and Shahid Afridi, starting July 18, 2025, at Edgbaston Stadium.",
-      meta_keywords:
-        "World Championship of Legends Cricket 2025, T20 tournament, Edgbaston, Northampton, WCL T20",
+      canonical_link: "https://wclcricket.com",  // You can update this later
+      meta_title: "World Championship of Legends Cricket 2025: Schedule, Teams, and Updates - WCL T20",
+      meta_description: "Discover everything about the World Championship of Legends Cricket 2025! Get the latest schedule, team lineups, and updates for this thrilling T20 tournament featuring cricket legends like Yuvraj Singh and Shahid Afridi, starting July 18, 2025, at Edgbaston Stadium.",
+      meta_keywords: "World Championship of Legends Cricket 2025, T20 tournament, Edgbaston, Northampton, WCL T20",
       page_content: `
         <h1>World Championship of Legends Cricket 2025 – World Cup of Legends</h1>
         <p>The World Championship of Legends Cricket (WCL) returns in July 2025 with an even larger format and stronger squads. After a successful inaugural season, this premier legends league is back to unite iconic former players on the field once more. The 2025 season will be hosted across four UK cities – Birmingham, Northampton, Leicester, and Leeds – from 18th July to 2nd August 2025, making it a nationwide festival of cricket nostalgia and competition.</p>
@@ -892,5 +891,6 @@ export async function getServerSideProps({ req }) {
     },
   };
 }
+
 
 export default Homepage;

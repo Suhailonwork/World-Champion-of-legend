@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}";
+self.__REACT_LOADABLE_MANIFEST="{\"pages/index.js -> @/components/CountDown\":{\"id\":\"pages/index.js -> @/components/CountDown\",\"files\":[\"static/chunks/src_components_CountDown_js.js\"]}}"

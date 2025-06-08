@@ -9,94 +9,94 @@ const Videos = ({ canonical_link, meta_title, meta_description, meta_keywords, p
     const fullvideo = [
          {
             video_title: "WCL 2024 | T20 | 3rd July | Ind Champions vs End Champions | Full Match",
-            video_image: "./assets/images/match/ic-ec-03.webp",
-            video_url: "https://youtu.be/QWS95Yx4j18?feature=shared",
+            video_image: "./assets/images/match/Match Thumb/M 1.jpg",
+            video_url: "https://youtu.be/qqrogom605k?feature=shared",
             
         },
         {
             video_title: "WCL 2024 | T20 | 3rd July | Pak Champions vs Aus Champions | Full Match",
-            video_image: "./assets/images/match/ac-pc-03.webp",
-            video_url: "https://youtu.be/ssU2HPNOSEw?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 2.jpg",
+            video_url: "https://youtu.be/4MLp-cAJwbc?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 4th July | England Champions vs South Africa Champions | Full Match",
-            video_image: "./assets/images/match/ec-sac-04.webp",
-            video_url: "https://youtu.be/LYVnvT14c24?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 3.jpg",
+            video_url: "https://youtu.be/WZ6AaF0Wm5A?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 4th July | West Indies Champions vs Pak Champions | Full Match",
-            video_image: "./assets/images/match/wic-pc-04.webp",
-            video_url: "https://youtu.be/I72n496JzFk?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 4.jpg",
+            video_url: "https://youtu.be/gvqf30mccFs?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 5th July | Australia Champions vs South Africa Champions | Full Match",
-            video_image: "./assets/images/match/ac-sac-05.webp",
-            video_url: "https://youtu.be/-smZkpFRwmI?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 5.jpg",
+            video_url: "https://youtu.be/BNwE_sL9OiA?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 5th | Ind Champions vs West Indies Champions | Full Match",
-            video_image: "./assets/images/match/ic-wic-05.webp",
-            video_url: "https://youtu.be/T8bJexwKEWw?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 6.jpg",
+            video_url: "https://youtu.be/z_fdVEPaPS4?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 6th July | Aus Champions vs Eng Champions | Full Match",
-            video_image: "./assets/images/match/ac-ec-06.webp",
-            video_url: "https://youtu.be/AU4N2nTTygI?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 7.jpg",
+            video_url: "https://youtu.be/dUIL4Pubr70?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 6th July | Ind Champions vs Pak Champions | Full Match ",
-            video_image: "./assets/images/match/ic-pc-06.webp",
-            video_url: "https://youtu.be/-TdMtpEjFDw?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 8.jpg",
+            video_url: "https://youtu.be/Nt24p_rZ4_Y?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 7th July | South Africa Champions vs West Indies Champions | Full Match",
-            video_image: "./assets/images/match/wic-sac-07.webp",
-            video_url: "https://youtu.be/RsKyi0JYgFw?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 9.jpg",
+            video_url: "" // Missing
         },
         {
             video_title: "WCL 2024 | T20 | 7th July | Eng Champions vs Pak Champions | Full Match",
-            video_image: "./assets/images/match/ec-pc-07.webp",
-            video_url: "https://youtu.be/-JIIelAG1M4?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 10.jpg",
+            video_url: "https://youtu.be/c5j6PbN4gKw?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 8th July | Aus Champions vs Ind Champions | Full Match",
-            video_image: "./assets/images/match/ic-ac-08.webp",
-            video_url: "https://youtu.be/fXE-b6aZELk?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 11.jpg",
+            video_url: "https://youtu.be/SUQA2cyGjaM?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 9th July | West Indies Champions vs England Champions | Full Match",
-            video_image: "./assets/images/match/ec-wic-09.webp",
-            video_url: "https://youtu.be/DJUTsaur7BY?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 12.jpg",
+            video_url: "https://youtu.be/DLRLCgJnjsk?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 9th July | South Africa Champions vs Pakistan Champions | Full Match",
-            video_image: "./assets/images/match/pc-sac-09.webp",
-            video_url: "https://youtu.be/r40t_rxznWA?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 13.jpg",
+            video_url: "https://youtu.be/2fVpCy-Yzbc?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 10th July | India Champions vs South Africa Champions | Full Match",
-            video_image: "./assets/images/match/ic-sac-10.webp",
-            video_url: "https://youtu.be/BggptQa3Sz0?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 14.jpg",
+            video_url: "https://youtu.be/39ByMgs6qDM?feature=shared"
         },
         {
             video_title: "WCL 2024 | T20 | 10th July | West Indies Champions vs Australia Champions | Full Match",
-            video_image: "./assets/images/match/wic-ac-10.webp",
-            video_url: "https://youtu.be/2lHWxbo8iU4?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/M 15.jpg",
+            video_url: "https://youtu.be/kMnniBtW6HQ?si=wY6N3KgKfReLcD6R"
         },
         {
             video_title: "WCL 2024 | T20 | 12th July | Pakistan Champions vs West Indies Champions | Semi-Final |",
-            video_image: "./assets/images/match/pc-wic-12.webp",
-            video_url: "https://youtu.be/y-UKoRso2O4?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/Semi 1.jpg",
+            video_url: "https://youtu.be/6Y_HfNimEIs?si=uLa-42mdZmA736qm"
         },
         {
             video_title: "WCL 2024 | T20 | 12th July | Ind Champions vs Aus Indies Champions | Semi-Final |",
-            video_image: "./assets/images/match/ac-ic-12.webp",
-            video_url: "https://youtu.be/76NJfPIxIss?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/Semi 2.jpg",
+            video_url: "https://youtu.be/FhI81QlPkKY?si=nhMP20uJgyNce5l1"
         },
         {
             video_title: "WCL 2024 | T20 | 13th July | India Champions vs Pakistan Champions | Final |",
-            video_image: "./assets/images/match/pc-ic-13.webp",
-            video_url: "https://youtu.be/CraJy_hGPSk?feature=shared"
+            video_image: "./assets/images/match/Match Thumb/Final.jpg",
+            video_url: "https://youtu.be/Z7iWetI_g0Q?feature=shared"
         }
     ]
     const videos = [

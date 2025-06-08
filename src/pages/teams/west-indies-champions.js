@@ -119,6 +119,69 @@ const WestIndiesChampions = ({
     ],
     season2: [
       {
+        player_name: "Chris Gayle",
+        player_type: "Batsman",
+        player_jersey: "333",
+        player_image:
+          "/assets/images/players/west-indies-champions/chris-gayle.webp",
+        player_about:
+          'The "Universe Boss", Chris Gayle’s record-breaking six-hitting ability makes him one of the biggest attractions in WCL. His explosive batting at the top can single-handedly win games.',
+      },
+      {
+        player_name: "Kieron Pollard",
+        player_type: "All Rounder",
+        player_jersey: "55",
+        player_image:
+          "/assets/images/players/west-indies-champions/kieron-pollard.webp",
+        player_about:
+          "A powerful all-rounder, Kieron Pollard’s brutal hitting and crucial medium-pace bowling make him a game-changer in WCL. His leadership and experience in global leagues add immense value to any team.",
+      },
+      {
+        player_name: "DJ Bravo",
+        player_type: "All Rounder",
+        player_jersey: "47",
+        player_image:
+          "/assets/images/players/west-indies-champions/dwayne-bravo.webp",
+        player_about:
+          "A T20 legend, Dwayne Bravo’s dynamic all-round abilities make him a showstopper in WCL. His ability to finish games with the bat and bowl crucial death overs makes him an invaluable asset.",
+      },
+      {
+        player_name: "Lendl Simmons",
+        player_type: "Batsman",
+        player_jersey: "54",
+        player_image:
+          "/assets/images/players/west-indies-champions/lendl-simmons.webp",
+        player_about:
+          "A proven match-winner, Lendl Simmons’ ability to accelerate innings and play impactful knocks makes him a key figure in WCL. His T20 experience strengthens any batting lineup.",
+      },
+      {
+        player_name: "Dwayne Smith",
+        player_type: "Batsman",
+        player_jersey: "814",
+        player_image:
+          "/assets/images/players/west-indies-champions/dwayne-smith.webp",
+        player_about:
+          "A destructive opening batsman, Dwayne Smith’s powerful hitting and ability to provide quick starts make him a thrilling player in WCL. His part-time medium pace adds versatility to any squad.",
+      },
+      {
+        player_name: "Sheldon Cottrell",
+        player_type: "Bowler",
+        player_jersey: "19",
+        player_image:
+          "/assets/images/players/west-indies-champions/sheldon-cottrell.webp",
+        player_about:
+          "Known for his left-arm pace and trademark salute celebration, Sheldon Cottrell’s ability to swing the ball and bowl fiery spells makes him a dangerous bowler in WCL.",
+      },
+      {
+        player_name: "Shivnarain Chanderpaul",
+        player_type: "Batsman",
+        player_jersey: "6",
+        player_image:
+          "/assets/images/players/west-indies-champions/shivnarine-chanderpaul.webp",
+        player_about:
+          "One of the most resilient batsmen in cricket history, Shivnarine Chanderpaul’s unorthodox technique and ability to anchor innings bring immense experience to WCL.",
+      },
+      {
         player_name: "CHADWICK WALTON",
         player_type: "Batsman",
         player_jersey: "59",
@@ -128,13 +191,22 @@ const WestIndiesChampions = ({
           "A hard-hitting wicketkeeper-batsman...",
       },
       {
-        player_name: "DAVE MOHAMMED",
+        player_name: "Shannon Gabriel",
         player_type: "Bowler",
-        player_jersey: "777",
+        player_jersey: "20",
         player_image:
-          "/assets/images/players/west-indies-champions/dave.png",
+          "/assets/images/players/west-indies-champions/shannon-gabriel.webp",
         player_about:
-          "A skilled fast bowler...",
+          "A fast bowler known for his express pace and aggressive approach, Shannon Gabriel’s ability to generate bounce and trouble batsmen makes him a lethal force in WCL.",
+      },
+      {
+        player_name: "Ashley Nurse",
+        player_type: "All Rounder",
+        player_jersey: "5",
+        player_image:
+          "/assets/images/players/west-indies-champions/ashley-nurse.webp",
+        player_about:
+          "A crafty off-spinner and a handy lower-order batsman, Ashley Nurse’s ability to contain runs and take key wickets makes him a valuable all-rounder in WCL.",
       },
       {
         player_name: "FIDEL EDWARDS",
@@ -164,103 +236,22 @@ const WestIndiesChampions = ({
           "A skilled fast bowler...",
       },
       {
-        player_name: "Dwayne Smith",
-        player_type: "Batsman",
-        player_jersey: "50",
-        player_image:
-          "/assets/images/players/west-indies-champions/dwayne-smith.webp",
-        player_about:
-          "A destructive opening batsman, Dwayne Smith’s powerful hitting and ability to provide quick starts make him a thrilling player in WCL. His part-time medium pace adds versatility to any squad.",
-      },
-      {
-        player_name: "Sheldon Cottrell",
+        player_name: "DAVE MOHAMMED",
         player_type: "Bowler",
-        player_jersey: "19",
+        player_jersey: "777",
         player_image:
-          "/assets/images/players/west-indies-champions/sheldon-cottrell.webp",
+          "/assets/images/players/west-indies-champions/dave.png",
         player_about:
-          "Known for his left-arm pace and trademark salute celebration, Sheldon Cottrell’s ability to swing the ball and bowl fiery spells makes him a dangerous bowler in WCL.",
+          "A skilled fast bowler...",
       },
       {
-        player_name: "Lendl Simmons",
-        player_type: "Batsman",
-        player_jersey: "54",
-        player_image:
-          "/assets/images/players/west-indies-champions/lendl-simmons.webp",
-        player_about:
-          "A proven match-winner, Lendl Simmons’ ability to accelerate innings and play impactful knocks makes him a key figure in WCL. His T20 experience strengthens any batting lineup.",
-      },
-      {
-        player_name: "Ashley Nurse",
-        player_type: "All Rounder",
-        player_jersey: "5",
-        player_image:
-          "/assets/images/players/west-indies-champions/ashley-nurse.webp",
-        player_about:
-          "A crafty off-spinner and a handy lower-order batsman, Ashley Nurse’s ability to contain runs and take key wickets makes him a valuable all-rounder in WCL.",
-      },
-      {
-        player_name: "Devendra Bishoo",
+        player_name: "NIKITA MILLER",
         player_type: "Bowler",
-        player_jersey: "70",
+        player_jersey: "33",
         player_image:
-          "/assets/images/players/west-indies-champions/devendra-bishoo.webp",
+          "/assets/images/players/west-indies-champions/",
         player_about:
-          "A skillful leg-spinner, Devendra Bishoo’s sharp turn and deceptive variations make him a formidable bowler in WCL. His ability to outfox batsmen is a major asset.",
-      },
-      {
-        player_name: "Shivnarine Chanderpaul",
-        player_type: "Batsman",
-        player_jersey: "16",
-        player_image:
-          "/assets/images/players/west-indies-champions/shivnarine-chanderpaul.webp",
-        player_about:
-          "One of the most resilient batsmen in cricket history, Shivnarine Chanderpaul’s unorthodox technique and ability to anchor innings bring immense experience to WCL.",
-      },
-      {
-        player_name: "Shannon Gabriel",
-        player_type: "Bowler",
-        player_jersey: "85",
-        player_image:
-          "/assets/images/players/west-indies-champions/shannon-gabriel.webp",
-        player_about:
-          "A fast bowler known for his express pace and aggressive approach, Shannon Gabriel’s ability to generate bounce and trouble batsmen makes him a lethal force in WCL.",
-      },
-      {
-        player_name: "Dwayne Bravo",
-        player_type: "All Rounder",
-        player_jersey: "47",
-        player_image:
-          "/assets/images/players/west-indies-champions/dwayne-bravo.webp",
-        player_about:
-          "A T20 legend, Dwayne Bravo’s dynamic all-round abilities make him a showstopper in WCL. His ability to finish games with the bat and bowl crucial death overs makes him an invaluable asset.",
-      },
-      {
-        player_name: "Ravi Rampaul",
-        player_type: "Bowler",
-        player_jersey: "11",
-        player_image:
-          "/assets/images/players/west-indies-champions/ravi-rampaul.webp",
-        player_about:
-          "An experienced fast bowler, Ravi Rampaul’s ability to swing the ball and pick up key wickets makes him a dependable option in WCL. His international experience adds strength to the bowling unit.",
-      },
-      {
-        player_name: "Chris Gayle",
-        player_type: "Batsman",
-        player_jersey: "333",
-        player_image:
-          "/assets/images/players/west-indies-champions/chris-gayle.webp",
-        player_about:
-          'The "Universe Boss", Chris Gayle’s record-breaking six-hitting ability makes him one of the biggest attractions in WCL. His explosive batting at the top can single-handedly win games.',
-      },
-      {
-        player_name: "Kieron Pollard",
-        player_type: "All Rounder",
-        player_jersey: "55",
-        player_image:
-          "/assets/images/players/west-indies-champions/kieron-pollard.webp",
-        player_about:
-          "A powerful all-rounder, Kieron Pollard’s brutal hitting and crucial medium-pace bowling make him a game-changer in WCL. His leadership and experience in global leagues add immense value to any team.",
+          "A skilled fast bowler...",
       },
     ],
   };

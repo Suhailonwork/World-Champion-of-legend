@@ -135,13 +135,13 @@ const SauthAfricaChampions = ({
           "One of the most explosive and versatile batsmen in cricket history, AB de Villiers brings his 360-degree batting prowess to WCL. His ability to dominate any bowling attack makes him a superstar of the tournament.",
       },
       {
-        player_name: "Albie Morkel",
-        player_type: "All Rounder",
-        player_jersey: "81",
+        player_name: "Hashim Amla",
+        player_type: "Batsman",
+        player_jersey: "1",
         player_image:
-          "/assets/images/players/south-africa-champions/albie-morkel.webp",
+          "/assets/images/players/south-africa-champions/amla.png",
         player_about:
-          "A hard-hitting all-rounder, Albie Morkel’s powerful finishing ability and medium-pace bowling make him a valuable asset in WCL. His experience in T20 leagues worldwide adds immense value to his team.",
+          "A dynamic opening batsman...",
       },
       {
         player_name: "Chris Morris",
@@ -153,22 +153,38 @@ const SauthAfricaChampions = ({
           "A dynamic all-rounder, Chris Morris’ express pace and big-hitting lower down the order make him a game-changer in WCL. His death-over bowling skills add an extra edge to his team.",
       },
       {
-        player_name: "Hashim Amla",
-        player_type: "Batsman",
-        player_jersey: "1",
+        player_name: "Albie Morkel",
+        player_type: "All Rounder",
+        player_jersey: "81",
         player_image:
-          "/assets/images/players/south-africa-champions/amla.png",
+          "/assets/images/players/south-africa-champions/albie-morkel.webp",
         player_about:
-          "A dynamic opening batsman...",
+          "A hard-hitting all-rounder, Albie Morkel’s powerful finishing ability and medium-pace bowling make him a valuable asset in WCL. His experience in T20 leagues worldwide adds immense value to his team.",
       },
       {
-        player_name: "Aaron Phangiso",
+        player_name: "JP Duminy",
         player_type: "Bowler",
-        player_jersey: "69",
+        player_jersey: "21",
         player_image:
-          "/assets/images/players/south-africa-champions/Phangiso1.png",
+          "/assets/images/players/south-africa-champions/jp-duminy.webp",
+      },
+      {
+        player_name: "Imran Tahir",
+        player_type: "Bowler",
+        player_jersey: "99",
+        player_image:
+          "/assets/images/players/south-africa-champions/imran-tahir.webp",
         player_about:
-          "A genuine fast bowler...",
+          "A world-class leg-spinner, Imran Tahir’s wicket-taking ability and energetic celebrations will light up WCL. His vast experience and variations make him a key match-winner.",
+      },
+      {
+        player_name: "Wayne Parnell",
+        player_type: "Bowler",
+        player_jersey: "7",
+        player_image:
+          "/assets/images/players/south-africa-champions/wayne-parnell.webp",
+        player_about:
+          "A skillful left-arm pacer and a handy lower-order batsman, Wayne Parnell’s ability to swing the ball and contribute with the bat makes him a vital all-rounder in WCL.",
       },
       {
         player_name: "JJ Smuts",
@@ -187,24 +203,6 @@ const SauthAfricaChampions = ({
           "/assets/images/players/south-africa-champions/hardus-viljoen.webp",
         player_about:
           "A fierce fast bowler, Hardus Viljoen’s raw pace and aggressive bowling style make him a dangerous weapon in WCL. His ability to bowl hostile spells puts batsmen under pressure.",
-      },
-      {
-        player_name: "Wayne Parnell",
-        player_type: "Bowler",
-        player_jersey: "7",
-        player_image:
-          "/assets/images/players/south-africa-champions/wayne-parnell.webp",
-        player_about:
-          "A skillful left-arm pacer and a handy lower-order batsman, Wayne Parnell’s ability to swing the ball and contribute with the bat makes him a vital all-rounder in WCL.",
-      },
-      {
-        player_name: "Imran Tahir",
-        player_type: "Bowler",
-        player_jersey: "99",
-        player_image:
-          "/assets/images/players/south-africa-champions/imran-tahir.webp",
-        player_about:
-          "A world-class leg-spinner, Imran Tahir’s wicket-taking ability and energetic celebrations will light up WCL. His vast experience and variations make him a key match-winner.",
       },
       {
         player_name: "Richard Levi",
@@ -245,11 +243,20 @@ const SauthAfricaChampions = ({
       {
         player_name: "Morne van Wyk",
         player_type: "Wicket Keeper",
-        player_jersey: "15",
+        player_jersey: "37",
         player_image:
           "/assets/images/players/south-africa-champions/morne-van-wyk.webp",
         player_about:
           "A seasoned wicketkeeper-batsman, Morne van Wyk’s ability to provide quick starts at the top and his safe hands behind the stumps make him a vital part of any WCL squad.",
+      },
+      {
+        player_name: "Aaron Phangiso",
+        player_type: "Bowler",
+        player_jersey: "69",
+        player_image:
+          "/assets/images/players/south-africa-champions/Phangiso1.png",
+        player_about:
+          "A genuine fast bowler...",
       },
     ],
   };

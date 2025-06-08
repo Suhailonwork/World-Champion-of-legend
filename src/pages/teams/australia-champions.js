@@ -123,18 +123,10 @@ const AustraliaChampions = ({
       {
         player_name: "Brett Lee",
         player_type: "Bowler",
-        player_jersey: "42",
+        player_jersey: "58",
         player_image:
           "/assets/images/players/australia-champions/brett-lee.webp",
         player_about: "One of the fastest bowlers in cricket history...",
-      },
-      {
-        player_name: "Dan Christian",
-        player_type: "All Rounder",
-        player_jersey: "54",
-        player_image:
-          "/assets/images/players/australia-champions/dan-christian.webp",
-        player_about: "A seasoned all-rounder...",
       },
       {
         player_name: "Shaun Marsh",
@@ -161,36 +153,12 @@ const AustraliaChampions = ({
         player_about: "A powerful all-rounder...",
       },
       {
-        player_name: "STEVE O'KEEFE",
-        player_type: "Bowler",
-        player_jersey: "72",
+        player_name: "Ben Cutting",
+        player_type: "All Rounder",
+        player_jersey: "31",
         player_image:
-          "/assets/images/players/australia-champions/.webp",
-        player_about: "One of the fastest bowlers in cricket history...",
-      },
-      {
-        player_name: "ROB QUINEY",
-        player_type: "Wicket Keeper",
-        player_jersey: "12",
-        player_image:
-          "/assets/images/players/australia-champions/ROB_QUINEY.png",
-        player_about: "A hard-hitting wicketkeeper-batsman...",
-      },
-      {
-        player_name: "JOHN HASTING",
-        player_type: "All rounder",
-        player_jersey: "41",
-        player_image:
-          "/assets/images/players/australia-champions/jhon_hasting.png",
+          "/assets/images/players/australia-champions/ben-cutting.webp",
         player_about: "A powerful all-rounder...",
-      },
-      {
-        player_name: "Ben Dunk",
-        player_type: "Wicket Keeper",
-        player_jersey: "51",
-        player_image:
-          "/assets/images/players/australia-champions/ben-dunk.webp",
-        player_about: "A hard-hitting wicketkeeper-batsman...",
       },
       {
         player_name: "D’Arcy Short",
@@ -209,14 +177,6 @@ const AustraliaChampions = ({
         player_about: "A skilled fast bowler...",
       },
       {
-        player_name: "Ben Cutting",
-        player_type: "All Rounder",
-        player_jersey: "31",
-        player_image:
-          "/assets/images/players/australia-champions/ben-cutting.webp",
-        player_about: "A powerful all-rounder...",
-      },
-      {
         player_name: "Peter Siddle",
         player_type: "Bowler",
         player_jersey: "64",
@@ -231,6 +191,46 @@ const AustraliaChampions = ({
         player_image:
           "/assets/images/players/australia-champions/callum-fergusan.webp",
         player_about: "A stylish middle-order batsman...",
+      },
+      {
+        player_name: "Dan Christian",
+        player_type: "All Rounder",
+        player_jersey: "54",
+        player_image:
+          "/assets/images/players/australia-champions/dan-christian.webp",
+        player_about: "A seasoned all-rounder...",
+      },
+      {
+        player_name: "Ben Dunk",
+        player_type: "Wicket Keeper",
+        player_jersey: "51",
+        player_image:
+          "/assets/images/players/australia-champions/ben-dunk.webp",
+        player_about: "A hard-hitting wicketkeeper-batsman...",
+      },
+      {
+        player_name: "STEVE O'KEEFE",
+        player_type: "Bowler",
+        player_jersey: "72",
+        player_image:
+          "/assets/images/players/australia-champions/.webp",
+        player_about: "One of the fastest bowlers in cricket history...",
+      },
+      {
+        player_name: "ROB QUINEY",
+        player_type: "Wicket Keeper",
+        player_jersey: "12",
+        player_image:
+          "/assets/images/players/australia-champions/ROB_QUINEY.png",
+        player_about: "A hard-hitting wicketkeeper-batsman...",
+      },
+      {
+        player_name: "JOHN HASTINGS",
+        player_type: "All rounder",
+        player_jersey: "41",
+        player_image:
+          "/assets/images/players/australia-champions/jhon_hastings.png",
+        player_about: "A powerful all-rounder...",
       },
     ],
   };

@@ -129,27 +129,19 @@ const EnglandChampions = ({
     ],
     season2: [
       {
-        player_name: "RYAN SIDEBOTTOM",
-        player_type: "Bowler",
-        player_jersey: "18",
+        player_name: "Eoin Morgan",
+        player_type: "Batsman",
+        player_jersey: "16",
         player_image:
-          "/assets/images/players/england-champions/ryan-sidebottom.webp",
-        player_about: "A genuine fast bowler...",
+          "/assets/images/players/england-champions/eoin-morgan.webp",
+        player_about:
+          "The mastermind behind England’s white-ball revolution...",
       },
       {
-        player_name: "STUART MEAKER",
-        player_type: "Bowler",
-        player_jersey: "60",
-        player_image:
-          "/assets/images/players/england-champions/stuart-meaker.webp",
-        player_about: "A genuine fast bowler...",
-      },
-      {
-        player_name: "USMAN AFZAAL",
-        player_type: "All rounder",
-        player_jersey: "606",
-        player_image:
-          "/assets/images/players/england-champions/usman-afzaal.webp",
+        player_name: "Moeen Ali",
+        player_type: "All Rounder",
+        player_jersey: "8",
+        player_image: "/assets/images/players/england-champions/moeen-ali.webp",
         player_about: "A dynamic all-rounder...",
       },
       {
@@ -161,25 +153,16 @@ const EnglandChampions = ({
         player_about: "One of England’s greatest Test captains...",
       },
       {
-        player_name: "Moeen Ali",
-        player_type: "All Rounder",
-        player_jersey: "18",
-        player_image: "/assets/images/players/england-champions/moeen-ali.webp",
-        player_about: "A dynamic all-rounder...",
-      },
-      {
-        player_name: "Eoin Morgan",
+        player_name: "Ian Bell",
         player_type: "Batsman",
-        player_jersey: "16",
-        player_image:
-          "/assets/images/players/england-champions/eoin-morgan.webp",
-        player_about:
-          "The mastermind behind England’s white-ball revolution...",
+        player_jersey: "7",
+        player_image: "/assets/images/players/england-champions/ian-bell.webp",
+        player_about: "A stylish batsman...",
       },
       {
         player_name: "Ravi Bopara",
         player_type: "All Rounder",
-        player_jersey: "42",
+        player_jersey: "25",
         player_image:
           "/assets/images/players/england-champions/ravi-bopara.webp",
         player_about: "A versatile all-rounder...",
@@ -187,23 +170,15 @@ const EnglandChampions = ({
       {
         player_name: "Samit Patel",
         player_type: "All Rounder",
-        player_jersey: "21",
+        player_jersey: "29",
         player_image:
           "/assets/images/players/england-champions/samit-patel.webp",
         player_about: "A seasoned all-rounder...",
       },
       {
-        player_name: "Phil Mustard",
-        player_type: "Wicket Keeper",
-        player_jersey: "52",
-        player_image:
-          "/assets/images/players/england-champions/phil-mustard.webp",
-        player_about: "A hard-hitting wicketkeeper-batsman...",
-      },
-      {
         player_name: "Liam Plunkett",
         player_type: "Bowler",
-        player_jersey: "29",
+        player_jersey: "17",
         player_image:
           "/assets/images/players/england-champions/liam-plunkett.webp",
         player_about: "A genuine fast bowler...",
@@ -225,11 +200,20 @@ const EnglandChampions = ({
         player_about: "A skilled fast bowler...",
       },
       {
-        player_name: "Ian Bell",
-        player_type: "Batsman",
-        player_jersey: "7",
-        player_image: "/assets/images/players/england-champions/ian-bell.webp",
-        player_about: "A stylish batsman...",
+        player_name: "DIMITRI MASCATENHAS",
+        player_type: "All Rounder",
+        player_jersey: "32",
+        player_image:
+          "/assets/images/players/england-champions/",
+        player_about: "A skilled fast bowler...",
+      },
+      {
+        player_name: "Phil Mustard",
+        player_type: "Wicket Keeper",
+        player_jersey: "52",
+        player_image:
+          "/assets/images/players/england-champions/phil-mustard.webp",
+        player_about: "A hard-hitting wicketkeeper-batsman...",
       },
       {
         player_name: "Tim Ambrose",
@@ -238,6 +222,30 @@ const EnglandChampions = ({
         player_image:
           "/assets/images/players/england-champions/tim-ambrose.webp",
         player_about: "A reliable wicketkeeper-batsman...",
+      },
+      {
+        player_name: "RYAN SIDEBOTTOM",
+        player_type: "Bowler",
+        player_jersey: "18",
+        player_image:
+          "/assets/images/players/england-champions/ryan-sidebottom.webp",
+        player_about: "A genuine fast bowler...",
+      },
+      {
+        player_name: "STUART MEAKER",
+        player_type: "Bowler",
+        player_jersey: "60",
+        player_image:
+          "/assets/images/players/england-champions/stuart-meaker.webp",
+        player_about: "A genuine fast bowler...",
+      },
+      {
+        player_name: "USMAN AFZAAL",
+        player_type: "All rounder",
+        player_jersey: "532",
+        player_image:
+          "/assets/images/players/england-champions/usman-afzaal.webp",
+        player_about: "A dynamic all-rounder...",
       },
     ],
   };
@@ -268,7 +276,7 @@ const EnglandChampions = ({
             </div>
 
             <div className="team-owners-container ">
-              <div className="grid grid-cols-2 shadow-lg p-10 gap-10 text-justify rounded bg-[#27336d]">
+              <div className="grid md:grid-cols-2 shadow-lg p-5 md:p-10 gap-10 text-justify rounded bg-[#27336d]">
                 <div className="team-owner">
                   <TeamOwner
                     name="Mr. Praveen Sharma"
