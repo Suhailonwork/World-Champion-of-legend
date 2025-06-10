@@ -348,6 +348,100 @@ const Homepage = ({
     },
   ];
 
+  const fullvideo = [
+         {
+            video_title: "WCL 2024 | T20 | 3rd July | Ind Champions vs End Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 1.jpg",
+            video_url: "https://youtu.be/qqrogom605k?feature=shared",
+            
+        },
+        {
+            video_title: "WCL 2024 | T20 | 3rd July | Pak Champions vs Aus Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 2.jpg",
+            video_url: "https://youtu.be/4MLp-cAJwbc?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 4th July | England Champions vs South Africa Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 3.jpg",
+            video_url: "https://youtu.be/WZ6AaF0Wm5A?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 4th July | West Indies Champions vs Pak Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 4.jpg",
+            video_url: "https://youtu.be/gvqf30mccFs?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 5th July | Australia Champions vs South Africa Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 5.jpg",
+            video_url: "https://youtu.be/BNwE_sL9OiA?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 5th | Ind Champions vs West Indies Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 6.jpg",
+            video_url: "https://youtu.be/z_fdVEPaPS4?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 6th July | Aus Champions vs Eng Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 7.jpg",
+            video_url: "https://youtu.be/dUIL4Pubr70?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 6th July | Ind Champions vs Pak Champions | Full Match ",
+            video_image: "./assets/images/match/Match Thumb/M 8.jpg",
+            video_url: "https://youtu.be/Nt24p_rZ4_Y?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 7th July | South Africa Champions vs West Indies Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 9.jpg",
+            video_url: "" // Missing
+        },
+        {
+            video_title: "WCL 2024 | T20 | 7th July | Eng Champions vs Pak Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 10.jpg",
+            video_url: "https://youtu.be/c5j6PbN4gKw?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 8th July | Aus Champions vs Ind Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 11.jpg",
+            video_url: "https://youtu.be/SUQA2cyGjaM?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 9th July | West Indies Champions vs England Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 12.jpg",
+            video_url: "https://youtu.be/DLRLCgJnjsk?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 9th July | South Africa Champions vs Pakistan Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 13.jpg",
+            video_url: "https://youtu.be/2fVpCy-Yzbc?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 10th July | India Champions vs South Africa Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 14.jpg",
+            video_url: "https://youtu.be/39ByMgs6qDM?feature=shared"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 10th July | West Indies Champions vs Australia Champions | Full Match",
+            video_image: "./assets/images/match/Match Thumb/M 15.jpg",
+            video_url: "https://youtu.be/kMnniBtW6HQ?si=wY6N3KgKfReLcD6R"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 12th July | Pakistan Champions vs West Indies Champions | Semi-Final |",
+            video_image: "./assets/images/match/Match Thumb/Semi 1.jpg",
+            video_url: "https://youtu.be/6Y_HfNimEIs?si=uLa-42mdZmA736qm"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 12th July | Ind Champions vs Aus Indies Champions | Semi-Final |",
+            video_image: "./assets/images/match/Match Thumb/Semi 2.jpg",
+            video_url: "https://youtu.be/FhI81QlPkKY?si=nhMP20uJgyNce5l1"
+        },
+        {
+            video_title: "WCL 2024 | T20 | 13th July | India Champions vs Pakistan Champions | Final |",
+            video_image: "./assets/images/match/Match Thumb/Final.jpg",
+            video_url: "https://youtu.be/Z7iWetI_g0Q?feature=shared"
+        }
+    ]
+
   const videos = [
     {
       video_title:
@@ -532,6 +626,30 @@ const Homepage = ({
               <div className="swiper mySwiper">
                 <div className="swiper-wrapper">
                   {videos.map((video, index) => {
+                    return (
+                      <div className="swiper-slide" key={index}>
+                        <VideoCard
+                          title={video.video_title}
+                          image={video.video_image}
+                          url={video.video_url}
+                          type="Video"
+                        ></VideoCard>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="videos news-container">
+            <div className="container-header">
+              <h1>WCL Full Match</h1>
+              <Button href="/videos"></Button>
+            </div>
+            <div className="container-grid">
+              <div className="swiper mySwiper">
+                <div className="swiper-wrapper">
+                  {fullvideo.map((video, index) => {
                     return (
                       <div className="swiper-slide" key={index}>
                         <VideoCard
